@@ -1,0 +1,622 @@
+Auto 1
+Auto 2
+Auto 3
+Car 1
+Car 2
+Car 3
+Other 1
+Other 2
+Other 3
+
+Albatross
+  Black-footed
+  Laysan
+  Short-tailed
+Anhinga
+Auklet
+  Cassin’s
+  Crested
+  Least
+  Parakeet
+  Rhinoceros
+Avocet, American
+Beardless-Tyrannulet, Northern
+Bishop, Northern Red
+Bittern
+  American
+  Least
+Blackbird
+  Brewer’s
+  Red-winged
+  Rusty
+  Tricolored
+  Yellow-headed
+Bluebird
+  Mountain
+  Western
+Bobolink
+Booby, Brown
+Brant
+Bufflehead
+Bunting
+  Indigo
+  Lark
+  Lazuli
+  Painted
+  McKay’s
+  Snow
+  Varied
+Bushtit
+Canvasback
+Cardinal, Northern
+Catbird, Gray
+Chat, Yellow-breasted
+Chickadee
+  Chestnut-backed
+  Mexican
+  Mountain
+Chukar
+Coot, American
+Cormorant
+  Brandt’s
+  Double-crested
+  Neotropic
+  Pelagic
+Cowbird
+  Bronzed
+  Brown-headed
+Crane, Sandhill
+Creeper, Brown
+Crossbill, Red
+Crow
+  American
+  Fish
+  Northwestern
+Cuckoo, Yellow-billed
+Curlew, Long-billed
+Dipper, American
+Dotterel, Eurasian
+Dove
+  Common Ground-
+  Eurasian Collared-
+  Inca
+  Mourning
+  Oriental Turtle-
+  White-winged
+Dowitcher
+  Long-billed
+  Short-billed
+Duck
+  American Black
+  Falcated
+  Fulvous Whistling-
+  Harlequin
+  Long-tailed
+  Ring-necked
+  Ruddy
+  Tufted
+  Wood
+Dunlin
+Eagle
+  Golden
+  Bald
+Egret
+  Cattle
+  Great
+  Reddish
+  Snowy
+Falcon
+  Peregrine
+  Prairie
+Finch
+  Cassin’s
+  House
+  Purple
+Flicker, Northern
+Flycatcher
+  Ash-throated
+  Brown-crested
+  Buff-breasted
+  Dusky
+  Gray
+  Hammond’s
+  Olive-sided
+  Scissor-tailed
+  Sulphur-bellied
+  Vermilion
+  Western
+  Willow
+Fulmar, Northern
+Gadwall
+Gallinule
+  Common
+  Purple
+Gnatcatcher
+  Black-tailed
+  Blue-gray
+  California
+Godwit
+  Bar-tailed
+  Hudsonian
+  Marbled
+Goldeneye
+  Barrow’s
+  Common
+Goldfinch
+  American
+  Lawrence’s
+  Lesser
+Goose
+  Cackling
+  Canada
+  Emperor
+  Greater White-fronted
+  Ross’s
+  Snow
+Grackle
+  Boat-tailed
+  Common
+  Great-tailed
+Grebe
+  Clark’s
+  Eared
+  Horned
+  Pied-billed
+  Red-necked
+  Western
+Grosbeak
+  Black-headed
+  Blue
+  Evening
+  Pine
+  Rose-breasted
+Guillemot, Pigeon
+Gull
+  Bonaparte’s
+  California
+  Franklin’s
+  Glaucous
+  Glaucous-winged Gull
+  Great Black-backed
+  Heermann’s
+  Herring
+  Iceland
+  Laughing
+  Lesser Black-backed
+  Little
+  Mew
+  Ring-billed
+  Ross’s
+  Sabine’s
+  Swallow-tailed
+  Western
+Harrier, Northern
+Hawk
+  Broad-winged
+  Cooper’s
+  Ferruginous
+  Gray
+  Harris’s
+  Red-shouldered
+  Red-tailed
+  Rough-legged
+  Sharp-shinned
+  Swainson’s
+  Zone-tailed
+Heron
+  Black-crowned Night-
+  Great Blue
+  Green
+  Tricolored
+  Yellow-crowned Night-
+Hummingbird
+  Allen’s
+  Anna’s
+  Black-chinned
+  Blue-throated
+  Broad-billed
+  Broad-tailed
+  Calliope
+  Costa’s
+  Lucifer
+  Rivoli’s
+  Rufous
+  White-eared
+Ibis
+  Glossy
+  White
+  White-faced
+Jaeger
+  Long-tailed
+  Parasitic
+  Pomarine
+Jay
+  Blue
+  California Scrub-
+  Florida Scrub-
+  Green
+  Island Scrub-
+  Mexican
+  Pinyon
+  Steller’s
+Junco
+  Dark-eyed
+  Yellow-eyed
+Kestrel, American
+Killdeer
+Kingbird
+  Cassin’s
+  Eastern
+  Tropical
+  Western
+Kingfisher, Belted
+Kinglet
+  Golden-crowned
+  Ruby-crowned
+Kiskadee, Great
+Kite
+  Swallow-tailed
+  White-tailed
+Kittiwake, Black-legged
+Knot, Red
+Lark, Horned
+Limpkin
+Longspur
+  Chestnut-collared
+  Lapland
+Loon
+  Arctic
+  Common
+  Pacific
+  Red-throated
+  Yellow-billed
+Magpie
+  Black-billed
+  Yellow-billed
+Mallard
+Martin, Purple
+Meadowlark
+  Eastern
+  Western
+Merganser
+  Common
+  Hooded
+  Red-breasted
+Merlin
+Mockingbird, Northern
+Munia, Scaly-breasted
+Murre, Common
+Murrelet
+  Marbled
+  Scripps’s
+Nighthawk, Common
+Nutcracker, Clark’s
+Nuthatch
+  White-breasted
+  Pygmy
+  Red-breasted
+Oriole
+  Altamira
+  Baltimore
+  Bullock’s
+  Hooded
+  Orchard
+  Scott’s
+Osprey
+Ovenbird
+Owl
+  Barn
+  Barred
+  Burrowing
+  Eastern Screech-
+  Elf
+  Great Horned
+  Long-eared
+  Northern Pygmy-
+  Northern Saw-whet
+  Short-eared
+  Spotted
+  Western Screech-
+  Whiskered Screech-
+Oystercatcher, Black
+Parula, Northern
+Pelican
+  American White
+  Brown
+Petrel
+  Black-capped
+  Fea’s
+  Hawaiian
+Pewee
+  Greater
+  Western Wood-
+Phainopepla
+Phalarope
+  Red
+  Red-necked
+  Wilson’s
+Pheasant, Ring-necked
+Phoebe
+  Black
+  Eastern
+  Say’s
+Pigeon
+  Band-tailed
+  Rock
+Pintail, Northern
+Pipit
+  American
+  Red-throated
+Plover
+  American Golden-
+  Black-bellied
+  Greater Sand-
+  Mountain
+  Pacific Golden-
+  Piping
+  Semipalmated
+  Western Snowy
+  Wilson’s
+Ptarmigan, Willow
+Puffin
+  Atlantic
+  Horned
+  Tufted
+Pyrrhuloxia
+Quail
+  California
+  Gambel’s
+  Montezuma
+  Mountain
+  Scaled
+Rail
+  California Black
+  King
+  Ridgway’s
+  Virginia
+Raven
+  Chihuahuan
+  Common
+Razorbill
+Redhead
+Redpoll, Common
+Redstart
+  American
+  Painted
+Roadrunner, Greater
+Robin, American
+Ruff
+Sanderling
+Sandpiper
+  Baird’s
+  Buff-breasted
+  Curlew
+  Least
+  Pectoral
+  Rock
+  Semipalmated
+  Sharp-tailed
+  Solitary
+  Spotted
+  Stilt
+  Western
+  White-rumped
+Sapsucker
+  Red-breasted
+  Red-naped
+  Williamson’s
+  Yellow-bellied
+Scaup
+  Greater
+  Lesser
+Scoter
+  Surf
+  White-winged
+Shearwater
+  Black-vented
+  Buller’s
+  Cory’s
+  Flesh-footed
+  Great
+  Manx
+  Pink-footed
+  Short-tailed
+  Sooty
+Shoveler, Northern
+Shrike
+  Loggerhead
+  Siskin, Pine
+Skimmer, Black
+Skua
+  Great
+  South Polar
+Snipe, Wilson’s
+Solitaire, Townsend’s
+Sora
+Sparrow
+  American Tree
+  Bell’s
+  Black-chinned
+  Black-throated
+  Botteri’s
+  Brewer’s
+  Chipping
+  Clay-colored
+  Fox
+  Golden-crowned
+  Grasshopper
+  Harris’s
+  House
+  Lark
+  Lincoln’s
+  Nelson’s
+  Olive
+  Rufous-winged
+  Rufous-crowned
+  Sagebrush
+  Savannah
+  Song
+  Swamp
+  Vesper
+  White-crowned
+  White-throated
+Spoonbill, Roseate
+Starling, European
+Starthroat, Plain-capped
+Stilt, Black-necked
+Stint, Long-toed
+Stork, Wood
+Storm-Petrel
+  Ashy
+  Band-rumped
+  Black
+  Fork-tailed
+  Leach’s
+  Wilson’s
+Surfbird
+Swallow
+  Bank
+  Barn
+  Cave
+  Cliff
+  Northern Rough-winged
+  Tree
+  Violet-green
+Swan, Tundra
+Swift
+  Vaux’s
+  White-throated
+Tanager
+  Flame-colored
+  Hepatic
+  Scarlet
+  Summer
+  Western
+Tattler, Wandering
+Teal
+  Blue-winged
+  Cinnamon
+  Green-winged
+Tern
+  Arctic
+  Black
+  Caspian
+  Common
+  Elegant
+  Forster’s
+  Least
+  Royal
+  Sandwich
+Thrasher
+  Bendire’s
+  Brown
+  California
+  Curve-billed
+  Long-billed
+  Sage
+Thrush
+  Gray-cheeked
+  Hermit
+  Swainson’s
+  Varied
+  Wood
+Titmouse
+  Black-crested
+  Bridled
+  Oak
+Towhee
+  Abert’s
+  California
+  Canyon
+  Eastern
+  Green-tailed
+  Spotted
+Trogon, Elegant
+Turkey, Wild
+Turnstone
+  Black
+  Ruddy
+Veery
+Verdin
+Vireo
+  Bell’s
+  Blue-headed
+  Cassin’s
+  Hutton’s
+  Plumbeous
+  Red-eyed
+  Warbling
+  Yellow-green
+Vulture
+  Black
+  Turkey
+Wagtail, Eastern Yellow
+Warbler
+  Bay-breasted
+  Blue-winged
+  Black-and-white
+  Blackburnian
+  Blackpoll
+  Black-throated Gray
+  Black-throated Green
+  Black-throated Blue
+  Canada
+  Cape May
+  Chestnut-sided
+  Golden-cheeked
+  Grace’s
+  Hermit
+  Hooded
+  Kentucky
+  Lucy’s
+  MacGillivray’s
+  Magnolia
+  Nashville
+  Olive
+  Orange-crowned
+  Palm
+  Pine
+  Prothonotary
+  Red-faced
+  Tennessee
+  Townsend’s
+  Wilson’s
+  Worm-eating
+  Yellow
+  Yellow-rumped
+  Yellow-throated
+Waterthrush, Northern
+Waxwing, Cedar
+Whimbrel
+Wigeon
+  American
+  Eurasian
+Willet
+Woodpecker
+  Acorn
+  Arizona
+  Black-backed
+  Downy
+  Gila
+  Golden-fronted
+  Hairy
+  Ladder-backed
+  Lewis’s
+  Nuttall’s
+  Pileated
+  Red-bellied
+  White-headed
+Wren
+  Bewick’s
+  Cactus
+  Canyon
+  Carolina
+  House
+  Marsh
+  Pacific
+  Rock
+Wrentit
+Yellowlegs
+  Greater
+  Lesser
+Yellowthroat, Common

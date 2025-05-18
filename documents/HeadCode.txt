@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Journey</title>
+    <link rel="stylesheet" href="static/third.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+  </head>
+  <body class="iceland-regular">
+    <header>
+      <nav class="nav">
+        <ul>
+          <li><img width="40" src="images/LOGO-150-PNG.png" alt="logo"></li>
+          <li><a target="_self" href="https://scotthamilton.site/SiteB/home.html"><button class="btn">Coding Journey</button></a></li>
+          <li><a target="_self" href="about.html"><button class="btn">About</button></a></li>
+          <li><a target="_self" href="codingjournal.html"><button class="btn">Coding Journal</button></a></li>
+          <li><a target="_self" href="html.html"><button class="btn">HTML</button></a></li>
+          <li><a target="_self" href="links.html"><button class="btn">Links</button></a></li>
+          <li><a target="_self" href="https://netform.info/Scott-Hamiltons-Coding-site"><button class="btn">Contact me</button></a></li>
+        </ul>
+      </nav>
+   </header>

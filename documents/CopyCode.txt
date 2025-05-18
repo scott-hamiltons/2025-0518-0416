@@ -1,0 +1,35 @@
+      <p>Snipets of code all over the place.</p>
+      <h4><a target="_blank" href="testpage1.html">Test Page 1</a></h4>
+      <h4><a target="_blank" href="testpage2.html">Test Page 2</a></h4>
+      <br>
+      <hr>
+      <p class="pp">I include this code in all head elements at the least.</p>
+      <button id="copyButton">Copy Code below</button>
+      <script>
+          const copyButton = document.getElementById('copyButton');
+  
+          copyButton.addEventListener('click', () => {
+              fetch('documents/HeadCode.txt') // Replace 'your_text_file.txt' with the path to your file
+                  .then(response => response.text())
+                  .then(text => {
+                      navigator.clipboard.writeText(text)
+                          .then(() => {
+                              alert('Code Copied!');
+                          })
+                          .catch(err => {
+                              console.error('Failed to copy text: ', err);
+                          });
+                  })
+                  .catch(err => {
+                      console.error('Failed to read the file: ', err);
+                  });
+          });
+      </script>
+      <iframe
+      src="documents/HeadCode.txt"
+      frameBorder="4"
+      class="example-two"
+      scrolling="auto"
+      height="120"
+      width="100%">
+      </iframe>

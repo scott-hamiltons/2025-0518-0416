@@ -1,0 +1,15 @@
+//2025-0511-1630
+
+// two forward slashes for same line notes
+
+*/ asterisk and a forward slash for multiline
+notes and then another asterisk and a forward 
+slash at the end of multiline notes */
+
+//------------------------------------------------JAVASCRIPT
+
+function show(shown, hidden) {
+    document.getElementById(shown).style.display = 'block';
+    document.getElementById(hidden).style.display = 'none';
+    return false;
+}
