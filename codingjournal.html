@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+    <script src="static/Script2.js"></script>
 </head>
 <body class="iceland-regular">
     <header>
@@ -25,7 +26,21 @@
         </nav>
     </header>
     <h1>Coding Journal</h1>
-    <a class="btn" href="javascript: document.body.scrollIntoView(false);">To the bottom</a>
+
+    <br />
+    <a class="btn-b" href="javascript: document.body.scrollIntoView(false);">To the bottom</a>
+    <br />
+
+    <form name="f1" action=""
+          onSubmit="if(this.t1.value!=null && this.t1.value!='') findString(this.t1.value);return false">
+        <input type="text" name=t1 value="" size=20>
+        <input type="submit" name=b1 value="find">
+        <p>
+            Your search will be highlighted on this page only (not case sensitive) according to your system's 'browser settings. Press ENTER to go to the next find.
+        </p>
+    </form>
+    <br />
+    
     <h2>2025-0405-0640</h2>
     <section class="border">
         <p>I would first like to note the format for entry time "202504050640" broken down is  "0000" year with 4 digits, "0000" month and dqy both is with dual digits and both month and day totaling 4 digits, "0000" the time of day using military time format giving us a code for the time and day = 202504050640. This is how I plan to name things from here on out, including these journal entires as part of a name convention for myself. This portion of this journal is written with VS 2022, logging this journey journalistically in descending order on this page which I will somehow host live someday.</p>
@@ -229,7 +244,7 @@
 
     <!-- Right before this note, Add the next dated entry-->
 
-    <a class="btn" href="javascript: document.body.scrollIntoView(true);">To the top</a>
+    <a class="btn-b" href="javascript: document.body.scrollIntoView(true);">To the top</a>
     <footer>
         <p>How will I know if I don't try?</p>
         <a href="https://scotthamilton.site/">Scott Hamilton's Site</a>
