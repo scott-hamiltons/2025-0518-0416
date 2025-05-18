@@ -1,12 +1,7 @@
-# 2025-0518-0416
-Developing skills
+# Scott-Hamiltons
 
-So, I'm not familiar with figuring our how to fix error codes from VS. My solution to this problem is to start over with a fresh repository.
+2025-0518-0416
+Another location to hopefully not get crowded with Git errors. I'm not entirely sure what went wrong with the 0422-2 folder, but it seems to have become corrupted, thus this new folder. I believe my mistake was moving files around hastily and deleting hastily. I need to not do that.
 
-This repository is named by the time. Hopefully we won't need to make more repositories for the sake of avoiding errors.
-
-My strategy for learning about GitHub moving forward is to move slower, so I may be able to detect what goes wrong and then list ny solutions some place like a journal.
-
-
-Thnak you,
+Thank you,
 Scott Hamilton
