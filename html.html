@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/LOGO-FAVICON.png" type="image/x-icon">
+    <title>Coding Journey</title>
+    <link rel="stylesheet" href="static/third.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+</head>
+<body class="iceland-regular">
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><img width="80" src="images/LOGO-150-PNG.png" alt="logo"></li>
+                <li class="btn"><a target="_self" href="home.html">CODING JOURNEY</a></li>
+                <li class="btn"><a target="_self" href="about.html">ABOUT</a></li>
+                <li class="btn"><a target="_self" href="codingjournal.html">CODING JOURNAL</a></li>
+                <li class="btn"><a target="_self" href="code.html">CODE</a></li>
+                <li class="btn"><a target="_self" href="links.html">LINKS</a></li>
+                <li class="btn"><a target="_blank" href="https://netform.info/Scott-Hamiltons-Coding-site">CONTACT ME</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="iceland-regular">HTML</h1>
+    <p>Snipets of code all over the place.</p>
+    <h4><a target="_blank" href="buttons.html">Buttons</a></h4>
+    <h4><a target="_blank" href="testpage1.html">Test Page 1</a></h4>
+    <h4><a target="_blank" href="testpage2.html">Test Page 2</a></h4>
+
+    <!--- Code for snippet copying on the HTML webpage, down to the bottom of br -->
+    <section class="border">
+        <h2>Bolier Plate and header</h2>
+        <p class="pp">I include this code in all head elements at the least.</p>
+        <button id="copyButtona">Copy Code below</button>
+        <script>
+            const copyButtona = document.getElementById('copyButtona');
+            copyButtona.addEventListener('click', () => {
+                fetch('documents/BoilerPlateCode.txt') // Replace 'your_text_file.txt' with the path to your file
+                    .then(response => response.text())
+                    .then(text => {
+                        navigator.clipboard.writeText(text)
+                            .then(() => {
+                                alert('Code Copied!');
+                            })
+                            .catch(err => {
+                                console.error('Failed to copy text: ', err);
+                            });
+                    })
+                    .catch(err => {
+                        console.error('Failed to read the file: ', err);
+                    });
+            });
+        </script>
+        <iframe src="documents/BoilerPlateCode.txt"
+                frameBorder="4"
+                scrolling="auto"
+                height="280"
+                width="99.5%"
+                margin-left="10px"
+                margin-bottom="10px">
+    </iframe>
+    </section>
+    <br />
+    <section class="border">
+        <h2>All possible meta tags</h2>
+        <p class="para">Here is a copmrehensive list of everry meta tag able to be utilized with html. Referencing: https://gist.github.com/whitingx/3840905</p>
+        <button id="copyButtond">Copy Code below</button>
+        <script>
+            const copyButtond = document.getElementById('copyButtond');
+            copyButtond.addEventListener('click', () => {
+                fetch('documents/meta-tags.txt') // Replace 'your_text_file.txt' with the path to your file
+                    .then(response => response.text())
+                    .then(text => {
+                        navigator.clipboard.writeText(text)
+                            .then(() => {
+                                alert('Code Copied!');
+                            })
+                            .catch(err => {
+                                console.error('Failed to copy text: ', err);
+                            });
+                    })
+                    .catch(err => {
+                        console.error('Failed to read the file: ', err);
+                    });
+            });
+        </script>
+        <iframe src="documents/meta-tags.txt"
+                frameBorder="4"
+                scrolling="auto"
+                height="280"
+                width="99.5%"
+                margin-left="10px"
+                margin-bottom="10px">
+    </iframe>
+    </section>
+    <br />
+    <section class="border">
+        <h2>Copy Code Below Code</h2>
+        <p>This is the code that was created to be able to copy these code snippets. Note that several parts needed customizing for each particular situation.</p>
+        <button id="copyButtonb">Copy Code below</button>
+        <script>
+            const copyButtonb = document.getElementById('copyButtonb');
+            copyButtonb.addEventListener('click', () => {
+                fetch('documents/CopyCode.txt') // Replace 'your_text_file.txt' with the path to your file
+                    .then(response => response.text())
+                    .then(text => {
+                        navigator.clipboard.writeText(text)
+                            .then(() => {
+                                alert('Code Copied!');
+                            })
+                            .catch(err => {
+                                console.error('Failed to copy text: ', err);
+                            });
+                    })
+                    .catch(err => {
+                        console.error('Failed to read the file: ', err);
+                    });
+            });
+        </script>
+        <iframe src="documents/CopyCode.txt"
+                frameBorder="4"
+                scrolling="auto"
+                height="280"
+                width="99.5%"
+                margin-left="10px"
+                margin-bottom="10px">
+    </iframe>
+    </section>
+    <br />
+    <section class="border">
+        <h2>Placing snippets on this page.</h2>
+        <p>Copy this code from the source code then paste it into a text file. Save As a Name, something relevant to the snippet of code. Also, save where other text files for snippets are kept. Referencing the image below, make changes accrodingly. NOTE: There are 3 places that 'copybutton' appear. These need changed from all previous 'copybutton' variations. For example: 'copybuttona', 'copybuttonb' or ''copybuttonc'. Do, a, b, c, d... and so on.</p>
+        <p>I've tried this with Javascript get called in the htnl on it's page and it works as far as displaying the code, but the copied code message doesn't get displayed or the code copied</p>
+        <img class="oddshape" width="800" src="images/SnippetCopyPasteCode.jpg" />
+    </section>
+    <footer>
+        <p>How will I know if I don't try?</p>
+        <a href="https://scotthamilton.site/">Scott Hamilton's Site</a>
+    </footer>
+</body>
+</html>

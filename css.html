@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/LOGO-FAVICON.png" type="image/x-icon">
+    <title>Coding Journey</title>
+    <link rel="stylesheet" href="static/third.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+</head>
+<body class="iceland-regular">
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><img width="40" src="images/LOGO-150-PNG.png" alt="logo"></li>
+                <li><a target="_self" href="home.html"><button class="btn">Coding Journey</button></a></li>
+                <li><a target="_self" href="about.html"><button class="btn">About</button></a></li>
+                <li><a target="_self" href="codingjournal.html"><button class="btn">Coding Journal</button></a></li>
+                <li><a target="_self" href="code.html"><button class="btn">CODE</button></a></li>
+                <li><a target="_self" href="links.html"><button class="btn">Links</button></a></li>
+                <li><a target="_blank" href="https://netform.info/Scott-Hamiltons-Coding-site"><button class="btn">Contact me</button></a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <h1 class="iceland-regular">CSS</h1>
+    <br>
+    <p>Snipets of code all over the place.</p>
+    <h4><a target="_blank" href="testpage3.html">Test Page 3</a></h4>
+    <h4><a target="_blank" href="testpage4.html">Test Page 4</a></h4>
+    <br>
+    <!--- Code for snippet copying on the HTML webpage, down to the bottom of br -->
+    <hr>
+    <h4 class="h4">Bolier Plate</h4>
+    <p class="pp">I include this code in all head elements at the least.</p>
+    <button id="copyButton">Copy Code below</button>
+    <script>
+        const copyButton = document.getElementById('copyButton');
+
+        copyButton.addEventListener('click', () => {
+            fetch('documents/HeadCode.txt') // Replace 'your_text_file.txt' with the path to your file
+                .then(response => response.text())
+                .then(text => {
+                    navigator.clipboard.writeText(text)
+                        .then(() => {
+                            alert('Code Copied!');
+                        })
+                        .catch(err => {
+                            console.error('Failed to copy text: ', err);
+                        });
+                })
+                .catch(err => {
+                    console.error('Failed to read the file: ', err);
+                });
+        });
+    </script>
+    <iframe src="documents/HeadCode.txt"
+            frameBorder="4"
+            scrolling="auto"
+            height="500"
+            width="100%">
+    </iframe>
+    <br>
+    <hr>
+    <h4 class="h4">Display text file</h4>
+    <p>This is the code that was created to be able to copy these code snippets. Note that several parts needed customizing for each particular situation.</p>
+    <button id="copyButtonb">Copy Code below</button>
+    <script>
+        const copyButtonb = document.getElementById('copyButtonb');
+
+        copyButtonb.addEventListener('click', () => {
+            fetch('documents/CopyCode.txt') // Replace 'your_text_file.txt' with the path to your file
+                .then(response => response.text())
+                .then(text => {
+                    navigator.clipboard.writeText(text)
+                        .then(() => {
+                            alert('Code Copied!');
+                        })
+                        .catch(err => {
+                            console.error('Failed to copy text: ', err);
+                        });
+                })
+                .catch(err => {
+                    console.error('Failed to read the file: ', err);
+                });
+        });
+    </script>
+    <iframe src="documents/CopyCode.txt"
+            frameBorder="4"
+            class="example-two"
+            scrolling="auto"
+            height="500"
+            width="100%">
+    </iframe>
+    <br>
+    <hr>
+    <h4 class="h4">Boiler plate</h4>
+    <p class="para">I include this code in all head elements at the least.</p>
+    <button id="copyButton">Copy Code below</button>
+    <script>
+        const copyButton = document.getElementById('copyButton');
+
+        copyButton.addEventListener('click', () => {
+            fetch('documents/HeadCode.txt') // Replace 'your_text_file.txt' with the path to your file
+                .then(response => response.text())
+                .then(text => {
+                    navigator.clipboard.writeText(text)
+                        .then(() => {
+                            alert('Code Copied!');
+                        })
+                        .catch(err => {
+                            console.error('Failed to copy text: ', err);
+                        });
+                })
+                .catch(err => {
+                    console.error('Failed to read the file: ', err);
+                });
+        });
+    </script>
+    <iframe src="documents/HeadCode.txt"
+            frameBorder="4"
+            class="example-two"
+            scrolling="auto"
+            height="500"
+            width="100%">
+    </iframe>
+    <br>
+    <hr />
+    <h4 class="h4">
+        Placing snippets on this page.<h4 />
+        <p>Copy this code from the source code then paste it into a text file. Save As a Name, something relevant to the snippet of code. Also, save where other text files for snippets are kept. Referencing the image below, make changes accrodingly.</p>
+        <img class="oddshape" width="800" src="images/SnippetCopyPasteCode.jpg" />
+        <hr>
+
+        <footer>
+            <a href="https://scotthamilton.site/">Scott Hamilton's Site</a>
+        </footer>
+</body>
+</html>
