@@ -2,7 +2,7 @@
 /* css code learning going on in here */
 
 body {
-    font-family: "Iceland", Arial;
+    font-family: "Iceland", sans-serif;
     background-color: rgb(30, 31, 30);
     color: rgb(255, 255, 255);
 }
@@ -13,9 +13,20 @@ body {
 }
 
 .border {
+    font-family: "Jura", sans-serif;
+    text-align: justify;
     border-style: solid;
     border-color: green;
     border-width: 1px;
+    background-color: rgba(8, 10, 8, .6);
+    color: white;
+    margin: 10px;
+    padding: 5px;
+}
+
+.border p {
+    font-family: "Jura", sans-serif;
+    text-align: justify;
     background-color: rgba(8, 10, 8, .6);
     color: white;
     margin: 10px;
@@ -50,32 +61,63 @@ body {
   cursor: pointer;
 }
 
-    .btn:hover {
-        background-image: linear-gradient(rgb(34, 92, 29), rgb(13, 24, 12));
-        transition-duration: 0.2s;
-        text-align: center;
-        font-size: 22px;
-        font-weight: 200;
-        color: rgb(0, 255, 55);
-        box-shadow: 0 4px rgba(22,32,32,.9);
-        transform: translateY(4px);
-    }
+.btn:hover {
+    background-image: linear-gradient(rgb(34, 92, 29), rgb(13, 24, 12));
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 200;
+    color: rgb(0, 255, 55);
+    box-shadow: 0 4px rgba(22,32,32,.9);
+    transform: translateY(4px);
+}
 
 .btn:active {
   background-color: #495549;
   color: rgb(0, 255, 42);
   }
 
+.btn-b {
+    border: 1px solid rgb(0, 255, 55);
+    color: rgb(234, 254, 254);
+    background-image: linear-gradient(rgb(112, 151, 108), rgb(29, 40, 29));
+    box-shadow: 0 8px rgba(12,12,12,.9);
+    float: right;
+    padding: 2px 10px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.btn-b:hover {
+    background-image: linear-gradient(rgb(34, 92, 29), rgb(13, 24, 12));
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 200;
+    color: rgb(0, 255, 55);
+    box-shadow: 0 4px rgba(22,32,32,.9);
+    transform: translateY(4px);
+}
+
+.btn-b:active {
+    background-color: #495549;
+    color: rgb(0, 255, 42);
+}
+
 h1 {
-  text-align: center;
-  font-weight: 500;
-  font-size: 60px;
+    font-family: "Iceland", Arial;
+    text-align: center;
+    font-weight: 600;
+    font-size: 80px;
 }
 
 h2 {
-    font-size: 40px;
-    font-weight: 300;
-    color: white;
+    font-family: "Iceland", Arial;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: left;
 }
 
 .h4 {
@@ -322,4 +364,43 @@ hr{border-top: 20px solid #000;}
 .holographic-card:hover::before {
     opacity: .6;
     transform: rotate(-45deg) translateY(100%);
+}
+
+* {
+    /* Reset browser's padding and margin */
+    margin: 30;
+    padding: 30;
+    box-sizing: border-box;
+}
+
+input[type=text] {
+    border: 2px solid green;
+    border-radius: 4px;
+}
+
+.section-a {
+    background-color: rgb(30, 31, 30);
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+    .section-a:hover {
+        background-color: rgb(30, 31, 30);
+        color: black;
+        transition: all 1.0s ease;
+        text-shadow: 0 0 5px #00dd00;
+    }
+
+.p-a {
+    text-align: center;
 }
