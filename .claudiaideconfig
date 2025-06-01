@@ -1,6 +1,6 @@
 ﻿{
   "BackgroundImageAbsolutePath": "C:\\images\\Hexagons_Physical_06_3.jpg",
-  "BackgroundImagesDirectoryAbsolutePath": "C:\\images\\Hexagons_Physical_06_3.jpg",
+  "BackgroundImagesDirectoryAbsolutePath": "C:\\images",
   "BlurMethod": 0,
   "BlurRadius": 0,
   "EditorBackgroundColor": "",
@@ -9,7 +9,7 @@
   "Extensions": ".png, .jpg, .gif, .bmp",
   "ImageBackgroundType": 0,
   "ImageFadeAnimationInterval": "PT5S",
-  "ImageStretch": 1,
+  "ImageStretch": 0,
   "IncludeSubdirectories": false,
   "IsLimitToMainlyEditorWindow": false,
   "IsTransparentToContentMargin": false,
