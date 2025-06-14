@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="static/form-b-css.css">
+</head>
+<body>
+    <h1>freeCodeCamp Survey Form</h1>
+    <p>Thank you for taking this time to help us help others by helping us imrove this platform</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+        <fieldset>
+            <label for="name-a">Name</label><input id="name-a" name="name-a" type="text" placeholder="Enter your name" required>
+            <label for="email">Email</label><input id="email" name="email" type="email" placeholder="Enter your email" required>
+            <label for="age">Input your age (<span class="optional">years</span>) </label><input id="age" type="number" name="age" min="13" max="120" placeholder="Enter your age">
+            <label for="referrer">Which option best describes your current role?</label>
+            <select class="sel" id="referrer" name="referrer">
+                <option value="">select current role</option>
+                <option value="1">Student</option>
+                <option value="2">freeCodeCamp News</option>
+                <option value="3">freeCodeCamp Forum</option>
+                <option value="4">Other</option>
+            </select>
+        </fieldset>
+        <fieldset class="radio">
+            <legend class="lab">Would you reccomend freeCodeCamp to a friend? (<span class="optional">required</span>)</legend>
+            <input name="account-type" value="definitely" type="radio" checked>
+            <label class="lab" id="Definitely">Definitely</label>
+            <input name="Maybe" value="Maybe" type="radio">
+            <label class="lab" id="business-account">Maybe</label>
+            <input name="account-type" value="Not sure" type="radio">
+            <label class="lab" id="not-sure">Not sure</label>
+        </fieldset>
+        <fieldset>
+            <label for="referrer">Which is your favorite feature of freeCodeCamp?</label>
+            <select class="sel" id="favorite" name="favorite">
+                <option value="">select an option</option>
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">Community</option>
+                <option value="open-source">Open source</option>
+            </select>
+        </fieldset>
+        <fieldset class="radio">
+            <legend>What would you like ot see improved? (<span class="optional">Check all that apply</span>)</legend>
+            <input name="improvements" value="front-end" type="checkbox"><label class="lab" id="front-end">Front end development</label>
+            <input name="improvements" value="back-end" type="checkbox"><label class="lab" id="back-end">Back end development</label>
+            <input name="improvements" value="data-visualization" type="checkbox"><label class="lab" id="data-visualization">Data visualization</label>
+            <input name="improvements" value="challenges" type="checkbox"><label class="lab" id="challenges">Challenges</label>
+            <input name="improvements" value="gitter-help" type="checkbox"><label class="lab" id="gitter-help">Gitter help rooms</label>
+            <input name="improvements" value="videos" type="checkbox"><label class="lab" id="videos">Videos</label>
+            <input name="improvements" value="city-meetups" type="checkbox"><label class="lab" id="city-meetups">City meetups</label>
+            <input name="improvements" value="forums" type="checkbox"><label class="lab" id="forums">Forums</label>
+            <input name="improvements" value="additional-courses" type="checkbox"><label class="lab" id="additional-courses">Additional courses</label>
+        </fieldset>
+            <fieldset class="sel">
+            <label class="lab" for="comments">
+                Comments or suggestions?
+                <textarea id="comments" class="in" name="comments" rows="3" placeholder="Comments or suggestions"></textarea>
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <button class="sub-btn" id="submit" type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>

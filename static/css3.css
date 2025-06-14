@@ -1,0 +1,78 @@
+/* alt body 1 
+body {
+    background: #020024;
+    background: linear-gradient(0deg,rgba(2, 2, 10, .9) 0%, rgba(24, 30, 24, .8) 100%);
+    color: white;
+}
+*/
+
+body {
+    background: black;
+    color:white;
+}
+
+a:link {
+    width: 150px;
+    height: 70px;
+    color: aquamarine;
+}
+
+a:visited {
+    color: cornflowerblue;
+}
+
+a:hover {
+    transition-duration: .4s;
+    color: lime;
+}
+
+a:active {
+    color: white;
+}
+
+/* CSS code: */
+
+.div-a {
+    background: black;
+    width: 400px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 14px;
+    border-color: white;
+    padding: 20px;
+    margin: 20px;   
+}
+
+    .div-a:hover {
+        transition-duration: .4s;
+        background-color: rgba(8, 12, 8, .5);
+        border-color: greenyellow;
+    }
+
+.div-b {
+    background: black;
+    border: solid;
+    border-width: 2px;
+    border-radius: 14px;
+    border-color: white;
+    padding: 10px;
+    margin: 20px;
+}
+
+.bg-a {
+    background-color: rgba(2, 2, 3, .5);
+    color: white;
+    width: 600px;
+    height: 60px;
+    padding: 20px;
+    margin: 15px;
+    border-style: solid;
+    border-color: aquamarine;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+    .bg-a:hover {
+        background-color: rgba(22, 28, 28, 1);
+        color: green;
+    }

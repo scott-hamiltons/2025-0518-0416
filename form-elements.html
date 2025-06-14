@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="static/form-b-css.css" />
+</head>
+<body>
+    <h1>freeCodeCamp Survey Form</h1>
+    <p>Thank you for taking this time to help us help others by helping us imrove this platform</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+        <fieldset>
+            <label for="name-a">Name</label><input id="name-a" name="name-a" type="text" placeholder="Enter your name" required />
+            <label for="email">Email</label><input id="email" name="email" type="email" placeholder="Enter your email" required />
+            <label for="age">Input your age (<span class="optional">years</span>) </label><input id="age" type="number" name="age" min="13" max="120" placeholder="Enter your age" />
+            <label for="referrer">Which option best describes your current role?</label>
+                <select class="sel" id="referrer" name="referrer">
+                    <option value="">select current role</option>
+                    <option value="1">Student</option>
+                    <option value="2">freeCodeCamp News</option>
+                    <option value="3">freeCodeCamp Forum</option>
+                    <option value="4">Other</option>
+                </select>
+        </fieldset>
+        <fieldset class="radio">
+            <legend>Would you reccomend freeCodeCamp to a friend? (<span class="optional">required</span>)</legend>
+            <input id="definitely" type="radio" name="account-type" checked />
+            <label class="lab" for="Definitely">Definitely</label>
+            <input id="Maybe" type="radio" name="Maybe"" />
+            <label class="lab" for="business-account">Maybe</label>
+            <input id="Not sure" type="radio" name="account-type" />
+            <label class="lab" for="Not sure">Not sure</label>
+        </fieldset>
+        <fieldset>
+            <label for="referrer">Which is your favorite feature of freeCodeCamp?</label>
+            <select class="sel" id="referrer" name="referrer">
+                <option value="">select an option</option>
+                <option value="1">Challenges</option>
+                <option value="2">Projects</option>
+                <option value="3">Community</option>
+                <option value="4">Open source</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
+            <label for="referrer">
+                HWhich option best describes your current role?
+                <select id="referrer" name="referrer">
+                    <option value="">(select one)</option>
+                    <option value="1">freeCodeCamp News</option>
+                    <option value="2">freeCodeCamp YouTube Channel</option>
+                    <option value="3">freeCodeCamp Forum</option>
+                    <option value="4">Other</option>
+                </select>
+            </label>
+            <label for="bio">
+                Provide a bio:
+                <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+            </label>
+        </fieldset>
+        <label for="terms-and-conditions">
+            <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        </label>
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>

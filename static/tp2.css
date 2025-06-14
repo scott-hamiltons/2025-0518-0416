@@ -77,14 +77,12 @@ a:visited {
     font-weight: 400;
     font-size: 50px;
 }
-}
 
 /* mouse over link */
 a:hover {
     color: rgb(101, 252, 201);
     font-weight: 400;
     font-size: 50px;
-}
 }
 
 /* selected link */
@@ -93,7 +91,7 @@ a:active {
     font-weight: 400;
     font-size: 50px;
 }
-}
+
 .overline {
     text-decoration: overline;
 }

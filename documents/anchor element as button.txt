@@ -1,0 +1,32 @@
+<!--- HTML code: --->
+
+<div>
+  <a class="div-b" href="home.html">HOME</a>
+</div>
+
+
+
+/* CSS code: */
+
+a:link {
+    width: 150px;
+    height: 70px;
+    color: aquamarine;
+}
+
+.div-a {
+    background: black;
+    width: 400px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 14px;
+    border-color: white;
+    padding: 20px;
+    margin: 20px;   
+}
+
+    .div-a:hover {
+        transition-duration: .4s;
+        background-color: rgba(8, 12, 8, .5);
+        border-color: greenyellow;
+    }

@@ -1,0 +1,181 @@
+/* alt body 1 
+body {
+    background: #020024;
+    background: linear-gradient(0deg,rgba(2, 2, 10, .9) 0%, rgba(24, 30, 24, .8) 100%);
+    color: white;
+}
+*/
+
+body {
+    color: white;
+}
+
+html {
+    min-height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/Hexagons_Physical_06_3.jpg');
+    background-size: cover;
+}
+
+a:link {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+a:visited {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+a:hover {
+    text-decoration: none;
+    color: lime;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+/* CSS code: */
+
+.image-hover {
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    transition: 0.5s;
+}
+
+.image-hover:hover {
+    background-color: red;
+}
+
+
+.img-a {
+    width: 400px;
+    height: 300px;
+    background-image: url('../coders.jpg');
+    background-size: cover;
+    transition: background-image 0.1s;
+}
+
+.img-a:hover {
+    background-image: url('../Sunset.jpg');
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.box-a {
+    background-color: #222422;
+    color: white;
+    width: 50%;
+    height: 100px;
+    padding: 30px;
+    margin: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 10px;
+    resize: both;
+    overflow: auto;
+}
+
+.box-a:hover {
+    background-color: #332444;
+    color: white;
+    width: 50%;
+    height: 100px;
+    border-color: limegreen;
+    border-width: 2px;
+}
+
+.box-b {
+    display: inline-flex;
+    flex-direction: row;
+    background-color: #222422;
+    color: white;
+    min-width: 36vw;
+    max-width: 40vw;
+    height: fit-content;
+    padding:4vh;
+    margin: 20px 20px 20px 80px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 10px;
+    transition: 1s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+}
+
+.box-b:hover {
+    background-color: #332422;
+    border-color: limegreen;
+    border-width: 2px;
+    rotate: 4deg;
+    transform:translateX(400px);
+    transition: 1s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+}
+
+.box-c {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #222422;
+    color: white;
+    width: 200px;
+    height: fit-content;
+    padding: 4vh;
+    margin: 20px 20px 20px 80px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 10px;
+    transition: 1s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+}
+
+.box-c:hover {
+    background-color: #332422;
+    border-color: limegreen;
+    border-width: 2px;
+    transform: translatey(4px);
+    transition: 1s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+}
+
+.nav-a {
+    display: inline-flex;
+    flex-direction: row;
+    text-decoration: none;
+    background-color: #222422;
+    text-align: center;
+    vertical-align: middle;
+    width: fit-content;
+    height: 20px;
+    padding: 5PX;
+    margin: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    transition: .2s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+}
+
+.nav-a:hover {
+    background-color: #332422;
+    border-color: limegreen;
+    transform: translatey(2px);
+    transition: .2s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+}
+
+.nav-img {
+    display: inline-flex;
+    flex-direction: row;
+    vertical-align: middle;
+    padding: 5PX;
+    margin: 1px 1px 1px 1px;
+    transition: .1s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+}
+
+nav-r {
+    align-content: end;
+}

@@ -27,41 +27,46 @@
     <br>
     <h1 class="iceland-regular">CSS</h1>
     <br>
-    <p>Snipets of code all over the place.</p>
-    <h4><a target="_blank" href="testpage3.html">Test Page 3</a></h4>
-    <h4><a target="_blank" href="testpage4.html">Test Page 4</a></h4>
+    <h2>CSS tests</h2>
+    <h3><a target="_blank" href="testpage3.html">Test Page 3</a></h3>
+    <h3><a target="_blank" href="testpage4.html">Test Page 4</a></h3>
+    <h3><a target="_blank" href="hovereffects.html">HOVER EFFECTS</a></h3>
+    <h3><a target="_blank" href="css3.html">CSS-3</a></h3>
+    <h3><a target="_blank" href="css4.html">CSS-4</a></h3>
     <br>
-    <!--- Code for snippet copying on the HTML webpage, down to the bottom of br -->
-    <hr>
-    <h4 class="h4">Bolier Plate</h4>
-    <p class="pp">I include this code in all head elements at the least.</p>
-    <button id="copyButton">Copy Code below</button>
-    <script>
-        const copyButton = document.getElementById('copyButton');
 
-        copyButton.addEventListener('click', () => {
-            fetch('documents/HeadCode.txt') // Replace 'your_text_file.txt' with the path to your file
-                .then(response => response.text())
-                .then(text => {
-                    navigator.clipboard.writeText(text)
-                        .then(() => {
-                            alert('Code Copied!');
-                        })
-                        .catch(err => {
-                            console.error('Failed to copy text: ', err);
-                        });
-                })
-                .catch(err => {
-                    console.error('Failed to read the file: ', err);
-                });
-        });
-    </script>
-    <iframe src="documents/HeadCode.txt"
-            frameBorder="4"
-            scrolling="auto"
-            height="500"
-            width="100%">
-    </iframe>
+    <!--- Code for snippet copying on the HTML webpage, down to the bottom of br -->
+    <section class="border">
+        <h2 class="h2">Anchor element appearing as a button</h2>
+        <p>To make a button style link. Copy the code below. You will need to place the html code into you html file and the css code into your css file. Alternatively you could place the css code inline as a style element, however this is not considered good practice.</p>
+        <button id="copyButtona">Copy Code below</button>
+        <script>
+            const copyButtona = document.getElementById('copyButtona');
+
+            copyButtona.addEventListener('click', () => {
+                fetch('documents/anchor element as button.txt') // Replace 'your_text_file.txt' with the path to your file
+                    .then(response => response.text())
+                    .then(text => {
+                        navigator.clipboard.writeText(text)
+                            .then(() => {
+                                alert('Code Copied!');
+                            })
+                            .catch(err => {
+                                console.error('Failed to copy text: ', err);
+                            });
+                    })
+                    .catch(err => {
+                        console.error('Failed to read the file: ', err);
+                    });
+            });
+        </script>
+        <iframe src="documents/anchor element as button.txt"
+                frameBorder="4"
+                scrolling="auto"
+                height="500"
+                width="100%">
+        </iframe>
+    </section>
     <br>
     <hr>
     <h4 class="h4">Display text file</h4>
