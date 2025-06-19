@@ -21,6 +21,13 @@
                 <li class="btn"><a target="_self" href="code.html">CODE</a></li>
                 <li class="btn"><a target="_self" href="links.html">LINKS</a></li>
                 <li class="btn"><a target="_blank" href="https://netform.info/Scott-Hamiltons-Coding-site">CONTACT ME</a></li>
+                <li><img width="80" src="images/LOGO-150-PNG.png" alt="logo"></li>
+                <li class="btn"><a target="_self" href="home.html">CODING JOURNEY</a></li>
+                <li class="btn"><a target="_self" href="about.html">ABOUT</a></li>
+                <li class="btn"><a target="_self" href="codingjournal.html">CODING JOURNAL</a></li>
+                <li class="btn"><a target="_self" href="code.html">CODE</a></li>
+                <li class="btn"><a target="_self" href="links.html">LINKS</a></li>
+                <li class="btn"><a target="_blank" href="https://netform.info/Scott-Hamiltons-Coding-site">CONTACT ME</a></li>
             </ul>
         </nav>
     </header>
@@ -28,6 +35,29 @@
     <h1 class="iceland-regular">CSS</h1>
     <br>
     <h2>CSS tests</h2>
+    <br />
+    <div class="row">
+        <div class="column">
+            <h2>CSS test page 3</h2>
+            <h3><a target="_blank" href="testpage3.html">Scroll effect failed - 20250601</a></h3>
+            <p>I got this code from a codepen promotional site where there were lots of other code snippets available. I bleive that you need a subscription to unlock the links needed to complete the code to display the scroll effect correctly. So, this was not pure code, the code had links to code in other places that were locked unless you had a subscription with code pen particularly, I believe.</p>
+        </div>
+
+        <div class="column">
+            <h2>Column 2</h2>
+            <p>Some text..</p>
+        </div>
+
+        <div class="column">
+            <h2>Column 3</h2>
+            <p>Some text..</p>
+        </div>
+
+        <div class="column">
+            <h2>Column 4</h2>
+            <p>Some text..</p>
+        </div>
+    </div>
     <br />
     <div class="row">
         <div class="column">
@@ -59,6 +89,7 @@
     <br>
 
 
+
     <!--- Code for snippet copying on the HTML webpage, down to the bottom of br -->
     <section class="border">
         <h2 class="h2">Anchor element appearing as a button</h2>
@@ -72,7 +103,37 @@
         <button id="copyButtona">Copy Code below</button>
         <script>
             const copyButtona = document.getElementById('copyButtona');
+    <section class="border">
+        <h2 class="h2">Anchor element appearing as a button</h2>
+        <p>To make a button style link. Copy the code below. You will need to place the html code into you html file and the css code into your css file. Alternatively you could place the css code inline as a style element, however this is not considered good practice.</p>
+        <button id="copyButtona">Copy Code below</button>
+        <script>
+            const copyButtona = document.getElementById('copyButtona');
 
+            copyButtona.addEventListener('click', () => {
+                fetch('documents/anchor element as button.txt') // Replace 'your_text_file.txt' with the path to your file
+                    .then(response => response.text())
+                    .then(text => {
+                        navigator.clipboard.writeText(text)
+                            .then(() => {
+                                alert('Code Copied!');
+                            })
+                            .catch(err => {
+                                console.error('Failed to copy text: ', err);
+                            });
+                    })
+                    .catch(err => {
+                        console.error('Failed to read the file: ', err);
+                    });
+            });
+        </script>
+        <iframe src="documents/anchor element as button.txt"
+                frameBorder="4"
+                scrolling="auto"
+                height="500"
+                width="100%">
+        </iframe>
+    </section>
             copyButtona.addEventListener('click', () => {
                 fetch('documents/anchor element as button.txt') // Replace 'your_text_file.txt' with the path to your file
                     .then(response => response.text())

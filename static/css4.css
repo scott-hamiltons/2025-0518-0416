@@ -9,7 +9,13 @@ body {
 html {
     min-height: 100%;
     background: linear-gradient(0deg, rgba(0, 12, 0, 0.7), rgba(0, 0, 12, 0.7)), url('../images/Hexagons_Physical_06_3.jpg');
+    background: linear-gradient(0deg, rgba(0, 12, 0, 0.7), rgba(0, 0, 12, 0.7)), url('../images/Hexagons_Physical_06_3.jpg');
     background-size: cover;
+}
+
+
+body {
+    color: white;
 }
 
 
@@ -20,22 +26,27 @@ body {
 a:link {
     width: 150px;
     height: 70px;
+    width: 150px;
+    height: 70px;
     text-decoration: none;
     color: aquamarine;
 }
 
 a:visited {
     color: cornflowerblue;
+    color: cornflowerblue;
     text-decoration: none;
 }
 
 a:hover {
+    transition-duration: .4s;
     transition-duration: .4s;
     text-decoration: none;
     color: lime;
 }
 
 a:active {
+    color: white;
     color: white;
     text-decoration: none;
 }
@@ -52,6 +63,9 @@ a:active {
     .image-hover:hover {
         background-color: red;
     }
+    .image-hover:hover {
+        background-color: red;
+    }
 
 
 .img-a {
@@ -62,6 +76,9 @@ a:active {
     transition: background-image 0.1s;
 }
 
+    .img-a:hover {
+        background-image: url('../Sunset.jpg');
+    }
     .img-a:hover {
         background-image: url('../Sunset.jpg');
     }
@@ -98,9 +115,11 @@ a:active {
 
 .box-b {
     display: flex;
+    display: flex;
     flex-direction: row;
     background-color: #222422;
     color: white;
+    padding: 30px;
     padding: 30px;
     margin: 20px 20px 20px 80px;
     border-style: solid;
@@ -110,6 +129,13 @@ a:active {
     transition: 1s cubic-bezier(0.67, 0.03, 0.25, 0.92);
 }
 
+    .box-b:hover {
+        background-color: #332422;
+        border-color: limegreen;
+        border-width: 2px;
+        rotate: 10deg;
+        transition: 1s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+    }
     .box-b:hover {
         background-color: #332422;
         border-color: limegreen;
@@ -128,10 +154,24 @@ a:active {
 }
 
 .fc-a {
+    background-color: gray;
+    color: white;
+    width: 200px;
+    height: fit-content;
+    display: flex;
+    flex-direction: wrap;
+}
+
+.fc-a {
     display: inline-flex;
     flex-direction: row;
     background-color: #222422;
     color: white;
+    width: fit-content;
+    height: 22px;
+    text-align:center;
+    padding: 10px;
+    margin: 2px 2px 2px 2px;
     width: fit-content;
     height: 22px;
     text-align:center;
@@ -142,15 +182,32 @@ a:active {
     border-width: 1px;
     border-radius: 8px;
     transition: .2s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+    border-width: 1px;
+    border-radius: 8px;
+    transition: .2s cubic-bezier(0.67, 0.03, 0.25, 0.92);
 }
 
+.fc-a:hover {
 .fc-a:hover {
     background-color: #332422;
     border-color: limegreen;
     border-width: 1px;
     transform: translateY(2px);
     transition: .2s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+    border-width: 1px;
+    transform: translateY(2px);
+    transition: .2s cubic-bezier(0.67, 0.03, 0.25, 0.92);
 }
+    .fc-a > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 24px;
+    }
+
+.fc-b {
     .fc-a > div {
         background-color: #f1f1f1;
         width: 100px;
@@ -170,9 +227,16 @@ a:active {
     text-align: justify-all;
     padding: 10px;
     margin: 2px 2px 2px 2px;
+    color: white;
+    width: 30vw;
+    height: fit-content;
+    text-align: justify-all;
+    padding: 10px;
+    margin: 2px 2px 2px 2px;
     border-style: solid;
     border-color: white;
     border-width: 1px;
+    border-radius: 8px;
     border-radius: 8px;
     transition: .2s cubic-bezier(0.67, 0.03, 0.25, 0.92);
 }
@@ -184,7 +248,25 @@ a:active {
         transform: translateY(2px);
         transition: .2s cubic-bezier(0.67, 0.03, 0.25, 0.92);
     }
+    .fc-b:hover {
+        background-color: #332422;
+        border-color: limegreen;
+        border-width: 1px;
+        transform: translateY(2px);
+        transition: .2s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+    }
 
+    .fc-b > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 24px;
+    }
+
+
+.fc-img {
     .fc-b > div {
         background-color: #f1f1f1;
         width: 100px;
@@ -211,7 +293,23 @@ a:active {
         line-height: 75px;
         font-size: 30px;
     }
+    padding: 10px;
+    margin: 20px 20px 20px 80px;
+}
 
+    .fc-img > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+    }
+
+nav {
+    display: inline-flex;
+    flex-direction: row;
+    vertical-align: middle;
 nav {
     display: inline-flex;
     flex-direction: row;
