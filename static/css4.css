@@ -6,34 +6,38 @@ body {
 }
 */
 
+html {
+    min-height: 100%;
+    background: linear-gradient(0deg, rgba(0, 12, 0, 0.7), rgba(0, 0, 12, 0.7)), url('../images/Hexagons_Physical_06_3.jpg');
+    background-size: cover;
+}
+
+
 body {
     color: white;
 }
 
-html {
-    min-height: 100%;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/Hexagons_Physical_06_3.jpg');
-    background-size: cover;
-}
-
 a:link {
+    width: 150px;
+    height: 70px;
     text-decoration: none;
     color: aquamarine;
 }
 
 a:visited {
-    text-decoration: none;
     color: cornflowerblue;
+    text-decoration: none;
 }
 
 a:hover {
+    transition-duration: .4s;
     text-decoration: none;
     color: lime;
 }
 
 a:active {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
 }
 
 /* CSS code: */
@@ -45,9 +49,9 @@ a:active {
     transition: 0.5s;
 }
 
-.image-hover:hover {
-    background-color: red;
-}
+    .image-hover:hover {
+        background-color: red;
+    }
 
 
 .img-a {
@@ -58,9 +62,9 @@ a:active {
     transition: background-image 0.1s;
 }
 
-.img-a:hover {
-    background-image: url('../Sunset.jpg');
-}
+    .img-a:hover {
+        background-image: url('../Sunset.jpg');
+    }
 
 .grid {
     display: grid;
@@ -93,14 +97,11 @@ a:active {
 }
 
 .box-b {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     background-color: #222422;
     color: white;
-    min-width: 36vw;
-    max-width: 40vw;
-    height: fit-content;
-    padding:4vh;
+    padding: 30px;
     margin: 20px 20px 20px 80px;
     border-style: solid;
     border-color: white;
@@ -109,73 +110,110 @@ a:active {
     transition: 1s cubic-bezier(0.67, 0.03, 0.25, 0.92);
 }
 
-.box-b:hover {
-    background-color: #332422;
-    border-color: limegreen;
-    border-width: 2px;
-    rotate: 4deg;
-    transform:translateX(400px);
-    transition: 1s cubic-bezier(0.67, 0.03, 0.25, 0.92);
-}
+    .box-b:hover {
+        background-color: #332422;
+        border-color: limegreen;
+        border-width: 2px;
+        rotate: 10deg;
+        transition: 1s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+    }
 
 .box-c {
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: #222422;
+    background-color: gray;
     color: white;
     width: 200px;
     height: fit-content;
-    padding: 4vh;
-    margin: 20px 20px 20px 80px;
-    border-style: solid;
-    border-color: white;
-    border-width: 2px;
-    border-radius: 10px;
-    transition: 1s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+    display: flex;
+    flex-direction: wrap;
 }
 
-.box-c:hover {
-    background-color: #332422;
-    border-color: limegreen;
-    border-width: 2px;
-    transform: translatey(4px);
-    transition: 1s cubic-bezier(0.67, 0.03, 0.25, 0.92);
-}
-
-.nav-a {
+.fc-a {
     display: inline-flex;
     flex-direction: row;
-    text-decoration: none;
     background-color: #222422;
-    text-align: center;
-    vertical-align: middle;
+    color: white;
     width: fit-content;
-    height: 20px;
-    padding: 5PX;
-    margin: 1px 1px 1px 1px;
+    height: 22px;
+    text-align:center;
+    padding: 10px;
+    margin: 2px 2px 2px 2px;
     border-style: solid;
     border-color: white;
     border-width: 1px;
+    border-radius: 8px;
     transition: .2s cubic-bezier(0.67, 0.03, 0.25, 0.92);
 }
 
-.nav-a:hover {
+.fc-a:hover {
     background-color: #332422;
     border-color: limegreen;
-    transform: translatey(2px);
+    border-width: 1px;
+    transform: translateY(2px);
+    transition: .2s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+}
+    .fc-a > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 24px;
+    }
+
+.fc-b {
+    display: inline-flex;
+    flex-direction: row;
+    background-color: #222422;
+    color: white;
+    width: 30vw;
+    height: fit-content;
+    text-align: justify-all;
+    padding: 10px;
+    margin: 2px 2px 2px 2px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 8px;
     transition: .2s cubic-bezier(0.67, 0.03, 0.25, 0.92);
 }
 
-.nav-img {
+    .fc-b:hover {
+        background-color: #332422;
+        border-color: limegreen;
+        border-width: 1px;
+        transform: translateY(2px);
+        transition: .2s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+    }
+
+    .fc-b > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 24px;
+    }
+
+
+.fc-img {
     display: inline-flex;
     flex-direction: row;
     vertical-align: middle;
-    padding: 5PX;
-    margin: 1px 1px 1px 1px;
-    transition: .1s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+    padding: 10px;
+    margin: 20px 20px 20px 80px;
 }
 
-nav-r {
-    align-content: end;
+    .fc-img > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+    }
+
+nav {
+    display: inline-flex;
+    flex-direction: row;
+    vertical-align: middle;
 }
