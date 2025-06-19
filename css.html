@@ -58,6 +58,7 @@
     <h3><a target="_blank" href="css4.html">CSS-4</a></h3>
     <br>
 
+
     <!--- Code for snippet copying on the HTML webpage, down to the bottom of br -->
     <section class="border">
         <h2 class="h2">Anchor element appearing as a button</h2>
@@ -65,7 +66,37 @@
         <button id="copyButtona">Copy Code below</button>
         <script>
             const copyButtona = document.getElementById('copyButtona');
+    <section class="border">
+        <h2 class="h2">Anchor element appearing as a button</h2>
+        <p>To make a button style link. Copy the code below. You will need to place the html code into you html file and the css code into your css file. Alternatively you could place the css code inline as a style element, however this is not considered good practice.</p>
+        <button id="copyButtona">Copy Code below</button>
+        <script>
+            const copyButtona = document.getElementById('copyButtona');
 
+            copyButtona.addEventListener('click', () => {
+                fetch('documents/anchor element as button.txt') // Replace 'your_text_file.txt' with the path to your file
+                    .then(response => response.text())
+                    .then(text => {
+                        navigator.clipboard.writeText(text)
+                            .then(() => {
+                                alert('Code Copied!');
+                            })
+                            .catch(err => {
+                                console.error('Failed to copy text: ', err);
+                            });
+                    })
+                    .catch(err => {
+                        console.error('Failed to read the file: ', err);
+                    });
+            });
+        </script>
+        <iframe src="documents/anchor element as button.txt"
+                frameBorder="4"
+                scrolling="auto"
+                height="500"
+                width="100%">
+        </iframe>
+    </section>
             copyButtona.addEventListener('click', () => {
                 fetch('documents/anchor element as button.txt') // Replace 'your_text_file.txt' with the path to your file
                     .then(response => response.text())

@@ -1,13 +1,21 @@
 /* Author: Scott Hamilton */
 /* css code learning going on in here 
+/* css code learning going on in here 
 
+        color: rgb(255, 255, 255);    
         color: rgb(255, 255, 255);    
     background-color: rgb(30, 31, 30);
 */
 
 body {
     font-family: "Iceland", sans-serif;
+*/
+
+body {
+    font-family: "Iceland", sans-serif;
     color: rgb(255, 255, 255);
+    background-color: rgb(30, 31, 30);
+    margin: 30px;
     background-color: rgb(30, 31, 30);
     margin: 30px;
 }
@@ -20,7 +28,21 @@ body {
 .border {
     font-family: "Jura", sans-serif;
     text-align: justify;
+    font-family: "Jura", sans-serif;
+    text-align: justify;
     border-style: solid;
+    border-color: limegreen;
+    border-width: 2px;
+    background-color: rgba(18, 20, 18, 1);
+    color: white;
+    margin: 2px 10px 20px 10px;
+    padding: 20px;
+}
+
+.border p {
+    font-family: "Jura", sans-serif;
+    text-align: justify;
+    background-color: rgba(18, 20, 18, 1);
     border-color: limegreen;
     border-width: 2px;
     background-color: rgba(18, 20, 18, 1);
@@ -55,6 +77,16 @@ body {
 }
 
 .btn {
+    font-family: "Iceland", sans-serif;
+    border: 1px solid rgb(0, 255, 55);
+    color: rgb(234, 254, 254);
+    background-image: linear-gradient(rgb(112, 151, 108), rgb(29, 40, 29));
+    box-shadow: 0 8px rgba(12,12,12,.9);
+    padding: 2px 10px;
+    border-radius: 8px;
+    font-size: 22px;
+    font-weight: 200;
+    cursor: pointer;
     font-family: "Iceland", sans-serif;
     border: 1px solid rgb(0, 255, 55);
     color: rgb(234, 254, 254);
@@ -117,9 +149,29 @@ h1 {
     text-align: center;
     font-weight: 600;
     font-size: 80px;
+    font-family: "Iceland", Arial;
+    text-align: center;
+    font-weight: 600;
+    font-size: 80px;
 }
 
 h2 {
+    font-family: "Iceland", Arial;
+    font-size: 30px;
+    font-weight: 800;
+    text-shadow: 3px 3px 2px #002000;
+    text-align: left;
+    margin: 0;
+}
+
+h3 {
+    font-family: "Iceland", Arial;
+    font-size: 24px;
+    font-weight: 200;
+    text-shadow: 3px 3px 2px #002000;
+    text-align: left;
+    padding: 4px;
+    margin: 10px;
     font-family: "Iceland", Arial;
     font-size: 30px;
     font-weight: 800;
@@ -161,16 +213,20 @@ a:link {
 a:visited {
     font-weight: 400;
     color: rgb(50, 255, 20);
+    font-weight: 400;
+    color: rgb(50, 255, 20);
 }
 
 /* mouse over link */
 a:hover {
+    font-weight: 400;
     font-weight: 400;
     color: rgb(0, 255, 55);
 }
 
 /* selected link */
 a:active {
+    font-weight: 400;
     font-weight: 400;
     color: rgb(255, 255, 255);
 }
@@ -194,6 +250,9 @@ a:active {
 p {
     font-family: "Iceland", Arial;
     font-weight: 100;
+    font-size: 22px;
+    padding: 4px;
+    margin: 10px;
     font-size: 22px;
     padding: 4px;
     margin: 10px;
