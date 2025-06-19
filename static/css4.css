@@ -1,0 +1,219 @@
+/* alt body 1 
+body {
+    background: #020024;
+    background: linear-gradient(0deg,rgba(2, 2, 10, .9) 0%, rgba(24, 30, 24, .8) 100%);
+    color: white;
+}
+*/
+
+html {
+    min-height: 100%;
+    background: linear-gradient(0deg, rgba(0, 12, 0, 0.7), rgba(0, 0, 12, 0.7)), url('../images/Hexagons_Physical_06_3.jpg');
+    background-size: cover;
+}
+
+
+body {
+    color: white;
+}
+
+a:link {
+    width: 150px;
+    height: 70px;
+    text-decoration: none;
+    color: aquamarine;
+}
+
+a:visited {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+a:hover {
+    transition-duration: .4s;
+    text-decoration: none;
+    color: lime;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+/* CSS code: */
+
+.image-hover {
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    transition: 0.5s;
+}
+
+    .image-hover:hover {
+        background-color: red;
+    }
+
+
+.img-a {
+    width: 400px;
+    height: 300px;
+    background-image: url('../coders.jpg');
+    background-size: cover;
+    transition: background-image 0.1s;
+}
+
+    .img-a:hover {
+        background-image: url('../Sunset.jpg');
+    }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.box-a {
+    background-color: #222422;
+    color: white;
+    width: 50%;
+    height: 100px;
+    padding: 30px;
+    margin: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 10px;
+    resize: both;
+    overflow: auto;
+}
+
+.box-a:hover {
+    background-color: #332444;
+    color: white;
+    width: 50%;
+    height: 100px;
+    border-color: limegreen;
+    border-width: 2px;
+}
+
+.box-b {
+    display: flex;
+    flex-direction: row;
+    background-color: #222422;
+    color: white;
+    padding: 30px;
+    margin: 20px 20px 20px 80px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 10px;
+    transition: 1s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+}
+
+    .box-b:hover {
+        background-color: #332422;
+        border-color: limegreen;
+        border-width: 2px;
+        rotate: 10deg;
+        transition: 1s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+    }
+
+.box-c {
+    background-color: gray;
+    color: white;
+    width: 200px;
+    height: fit-content;
+    display: flex;
+    flex-direction: wrap;
+}
+
+.fc-a {
+    display: inline-flex;
+    flex-direction: row;
+    background-color: #222422;
+    color: white;
+    width: fit-content;
+    height: 22px;
+    text-align:center;
+    padding: 10px;
+    margin: 2px 2px 2px 2px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 8px;
+    transition: .2s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+}
+
+.fc-a:hover {
+    background-color: #332422;
+    border-color: limegreen;
+    border-width: 1px;
+    transform: translateY(2px);
+    transition: .2s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+}
+    .fc-a > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 24px;
+    }
+
+.fc-b {
+    display: inline-flex;
+    flex-direction: row;
+    background-color: #222422;
+    color: white;
+    width: 30vw;
+    height: fit-content;
+    text-align: justify-all;
+    padding: 10px;
+    margin: 2px 2px 2px 2px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 8px;
+    transition: .2s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+}
+
+    .fc-b:hover {
+        background-color: #332422;
+        border-color: limegreen;
+        border-width: 1px;
+        transform: translateY(2px);
+        transition: .2s cubic-bezier(0.67, 0.03, 0.25, 0.92);
+    }
+
+    .fc-b > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 24px;
+    }
+
+
+.fc-img {
+    display: inline-flex;
+    flex-direction: row;
+    vertical-align: middle;
+    padding: 10px;
+    margin: 20px 20px 20px 80px;
+}
+
+    .fc-img > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+    }
+
+nav {
+    display: inline-flex;
+    flex-direction: row;
+    vertical-align: middle;
+}

@@ -152,22 +152,26 @@ h3 {
 
 /* unvisited link */
 a:link {
-  color: rgb(240, 255, 250);
+  color: rgb(20, 255, 50);
+  font-weight: 400;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: rgb(240, 255, 250);
+    font-weight: 400;
+    color: rgb(50, 255, 20);
 }
 
 /* mouse over link */
 a:hover {
+    font-weight: 400;
     color: rgb(0, 255, 55);
 }
 
 /* selected link */
 a:active {
+    font-weight: 400;
     color: rgb(255, 255, 255);
 }
 
@@ -205,6 +209,15 @@ p {
     font-family: "Jura", Arial;
     font-weight: 100;
     font-size: 16px;
+    padding: 4px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.p-c {
+    font-family: "Jura", Arial;
+    font-weight: 100;
+    font-size: 12px;
     padding: 4px;
     margin: 10px;
     text-align: justify;
@@ -450,3 +463,38 @@ input[type=text] {
     border-radius: 12px;
     margin: 4px;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+/* Container for flexboxes */
+.row {
+    background-color: rgb(30, 31, 30);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Create four equal columns */
+.column {
+    background-color: rgb(30, 31, 30);
+    flex: 20%;
+    padding: 20px;
+    margin: 0px 20px 0px 20px;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    .column {
+        background-color: rgb(31, 31, 30);
+        flex: 50%;
+    }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .row {
+        background-color: #1c1c1c;
+        flex-direction: column;
+    }
