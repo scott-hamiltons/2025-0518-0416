@@ -9,7 +9,6 @@ body {
 html {
     min-height: 100%;
     background: linear-gradient(0deg, rgba(0, 12, 0, 0.7), rgba(0, 0, 12, 0.7)), url('../images/Hexagons_Physical_06_3.jpg');
-    background: linear-gradient(0deg, rgba(0, 12, 0, 0.7), rgba(0, 0, 12, 0.7)), url('../images/Hexagons_Physical_06_3.jpg');
     background-size: cover;
 }
 
@@ -34,21 +33,18 @@ a:link {
 
 a:visited {
     color: cornflowerblue;
-    color: cornflowerblue;
     text-decoration: none;
 }
 
 a:hover {
     transition-duration: .4s;
-    transition-duration: .4s;
-    text-decoration: none;
+     text-decoration: none;
     color: lime;
 }
 
 a:active {
     color: white;
-    color: white;
-    text-decoration: none;
+     text-decoration: none;
 }
 
 /* CSS code: */
@@ -76,9 +72,6 @@ a:active {
     transition: background-image 0.1s;
 }
 
-    .img-a:hover {
-        background-image: url('../Sunset.jpg');
-    }
     .img-a:hover {
         background-image: url('../Sunset.jpg');
     }
