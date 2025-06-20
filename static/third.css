@@ -2,7 +2,7 @@
 
 html {
     min-height: 100%;
-    background: linear-gradient(45deg, rgba(8, 12, 8, 0.98), rgba(8, 8, 12, 0.98)), url('../images/Hexagons_Physical_06_3.jpg');
+    background: linear-gradient(45deg, rgba(8, 12, 8, 0.9), rgba(8, 8, 12, 0.9)), url('../images/Hexagons_Physical_06_3.jpg');
     background-size: cover;
 }
 
@@ -469,13 +469,20 @@ input[type=text] {
 
 /* Create four equal columns */
 .column {
-    background-color: rgb(30, 31, 30);
+    background-color: rgba(30, 31, 30, .6);
     flex: 20%;
     border-style: solid;
     border-width: 2px;
     border-color: white;
+    border-radius: 8px;
     padding: 20px;
     margin: 0px 20px 20px 20px;
+}
+
+.column:hover {
+    background-color: rgba(34, 35, 34, .8);
+    background-blend-mode: lighten;
+    border-radius: 10px;
 }
 
 /* On screens that are 992px wide or less, go from four columns to two columns */
@@ -491,8 +498,4 @@ input[type=text] {
     .row {
         flex-direction: column;
     }
-}
-
-* {
-    box-sizing: border-box;
 }
